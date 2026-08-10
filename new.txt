@@ -1,2 +1,24 @@
 Application 
 Application 2
+
+
+git init 
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <repository_url>
+git push -u origin main
+
+git branch <new branch name>
+git checkout <new branch name>
+git branch -- to check which branch you are on
+-- make changes to your code as needed, it will be reflected in the new branch not in main branch
+git add .
+git commit -m "Your commit message"
+git push -u origin <new branch name>
+-- check github you will get the message to compare & pull request, click on it and create a pull request to merge your changes to main branch
+-- now to delete the new branch after merging, you can use the following command
+git checkout main -- goto main branch
+git branch -d <new branch name> -- to delete the new branch
+-- now your changes on new branch are rolled back to main branch and you can see the changes on main branch after merging the pull request
+
