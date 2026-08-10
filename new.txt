@@ -23,3 +23,4 @@ git checkout main -- goto main branch
 git branch -d <new branch name> -- to delete the new branch
 -- now your changes on new branch are rolled back to main branch and you can see the changes on main branch after merging the pull request
 
+ 
