@@ -1,5 +1,6 @@
-Application 
+Application + App2
 Application 2
+<<<<<<< HEAD
 
 
 git init 
@@ -22,3 +23,7 @@ git checkout main -- goto main branch
 git branch -d <new branch name> -- to delete the new branch
 -- now your changes on new branch are rolled back to main branch and you can see the changes on main branch after merging the pull request
 
+=======
+App1
+App2
+>>>>>>> f4641c890816d40f0008071c232dd7b89697ca8d
